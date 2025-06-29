@@ -34,14 +34,14 @@ export const SignUpCard = () => {
         <Card className="w-full h-full md:w-[487px] border-none shadow-none">
             <CardHeader className="flex justify-center items-center text-center p-7">
                 <CardTitle className="text-2xl">
-                    Sign Up
+                    Get Started with Jeera
                 </CardTitle>
                 <CardDescription>
                     By signing up, you agree to our
                     {" "}
                     <Link href="/privacy">
                         <span className="text-blue-700">
-                            Privacy Policy
+                            Privacy Policy {" "}
                         </span>
                     </Link>
                     and{" "}
