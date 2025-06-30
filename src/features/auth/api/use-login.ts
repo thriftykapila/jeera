@@ -10,7 +10,9 @@ export const useLogin = () => {
 
     const mutation = useMutation<ResponseType, Error, RequestType>({
         mutationFn: async ({ json }) => {
+            console.log(json, "json")
             const response = await client.api.auth.login["$post"]({ json })
+            console.log(response, "res")
             return await response.json()
         }
     })
